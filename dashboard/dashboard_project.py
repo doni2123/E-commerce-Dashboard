@@ -144,7 +144,7 @@ max_date = all_df['order_purchase_timestamp'].max()
 
 with st.sidebar:
     # Menambah logo perusahaan
-    st.image("https://github.com/doni2123/E-commerce-Dashboard/blob/main/data/company_logo.png")
+    st.image("company_logo.png")
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
         label='Rentang waktu',
