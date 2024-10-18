@@ -132,7 +132,7 @@ def create_customer_geolocation_df(df, start_date, end_date): # create a custome
     return m
 
 #Read csv yang sudah di-export di jupyter notebook
-all_df = pd.read_csv("all_df.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/doni2123/E-commerce-Dashboard/refs/heads/main/dashboard/all_df.csv")
 
 # Mengubah datatype column menjadi datetime64ns
 datetime_columns = ['order_purchase_timestamp', 'order_estimated_delivery_date']
